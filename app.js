@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.get('/index', (req, res) => res.json({
+app.get('/', (req, res) => res.json({
 	"message" : "welcome"
 }))
 
