@@ -1,6 +1,10 @@
 const express = require('express')
 const app = express()
 
+app.get('/index', (req, res) => res.json({
+	"message" : "welcome"
+}))
+
 app.post('/autenticate', (req, res) => res.json({
 	"access_token" : "xxxxxxxxxxxxxxxxxxxxxx",
 	"token_type" : "bearer",
