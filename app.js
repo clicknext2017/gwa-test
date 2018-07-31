@@ -6,7 +6,7 @@ app.get('/', (req, res) => res.json({
 }))
 
 app.post('/autenticate', (req, res) => res.json({
-	"access_token" : "xxxxxxxxxxxxxxxxxxxxxx",
+	"access_token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzeXN0ZW1fbmFtZSI6IldGNENMQUlNIiwidW5pcXVlX25hbWUiOiJUZXN0IiwiaXNzIjoiaHR0cDovL3d3dy5tdWFuZ3RoYWkuY28udGgiLCJhdWQiOiI5NGZmNGQ3ZDEzNTI0ZGIzYWQ4MTU4NTMxZDI4YjM4YyIsImV4cCI6MTQ5NjA1NjMyMywibmJmIjoxNDk2MDUyNzIzfQ.6HRJocRAsvN2HrE8bd_oGbcyFjnghx36o7_3h0YKNpQ",
 	"token_type" : "bearer",
 	"expires_in" : 5555,
 	"refresh_token" : "xxxxxxxxxxxxxxxxxxxxxxx"
